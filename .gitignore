@@ -1,0 +1,43 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+.hypothesis/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Environments
+.venv/
+venv/
+env/
+.env/
+site/
+
+# Project workflow and docs (local only)
+.claude/
+docs/
+tests/
+features.json
+HARNESS.md
+WORKFLOW.md
+CLAUDE.md
+
+# Graphify generated output
+graphify-out/
+
+# OS files
+.DS_Store
+Thumbs.db
