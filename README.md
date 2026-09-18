@@ -198,24 +198,3 @@ condapm list-packages my-env
 condapm doctor
 condapm man [COMMAND]
 ```
-
-## Getting Started (for Development)
-
-```bash
-# Create virtual environment
-conda create -n <name> python=3.* -y
-
-# Install in development mode (includes dev dependencies)
-pip install -e ".[dev]"
-
-# Install the pre-commit hook (blocks secrets from reaching git)
-pip install pre-commit detect-secrets
-pre-commit install
-
-# Run tests
-pytest -v --cov
-
-# Try the CLI
-condapm list-projects
-condapm open my-env
-```
